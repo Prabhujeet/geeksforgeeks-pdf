@@ -1,8 +1,8 @@
-import httplib2
-import pdfcrowd
+import httplib2 as xx
+import pdfcrowd as yy
 from bs4 import BeautifulSoup, SoupStrainer
 
-http = httplib2.Http()
+http = httplib2.http()
 s= 'http://www.geeksforgeeks.org/'
 i=0
 to_crawl=[]
